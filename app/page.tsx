@@ -1,8 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
-import { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 
 const MatchaSequence = dynamic(() => import('@/components/MatchaSequence'), { ssr: false });
 
